@@ -1,17 +1,15 @@
 {
   "private": true,
   "dependencies": {
-
     "next": "^13.4.12",
     "react": "^18.2.0"
-
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "echo '1'",
     "eject": "react-scripts eject",
-    "test":"echo '1'"
+    "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": [
@@ -32,6 +30,7 @@
     ]
   },
   "devDependencies": {
-    "cross-env": "^7.0.3"
+    "cross-env": "^7.0.3",
+    "gh-pages": "^6.1.1"
   }
 }
